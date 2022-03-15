@@ -16,15 +16,10 @@
 [1 Introduction](#introduction)
 
 [2 Analysis of 10 Mutants of The Range class ](#analysis-of-10-mutants-of-the-range-class)
-* [2.1 Methods of Which Coverage Will Be Calculated](#methods-of-which-coverage-will-be-calculated)
-* [2.2 Data Flow Graphs](#data-flow-graphs)
-* [2.3 Def-Use Sets Per Statement](#def-use-sets-per-statement)
-* [2.4 Def-Use Pairs Per Variable](#def-use-pairs-per-variable)
-* [2.5 Test Case Def-Use Pair Coverage Analysis](#test-case-def-use-pair-coverage-analysis)
-* [2.6 Def-Use Pair Coverage Calculation](#def-use-pair-coverage-calculation)
 
-[3 Detailed Description of Testing Strategy](#detailed-description-of-testing-strategy)
-* [3.1 Testing Strategy](#testing-strategy)
+[3 Mutation Statistics Before and After](#mutation-statistics-before-and-after)
+* [3.1 DataUtilities](#datautilities)
+* [3.2 Range](#range)
 
 [4 High Level Description of Five Selected Test Cases and Their Contribution to Coverage](#high-level-description-of-five-selected-test-cases-and-their-contribution-to-coverage)
 * [4.1 DataUtilities](#datautilities)
@@ -203,8 +198,25 @@ public String toString() {
 
 <strong>Analysis:</strong> A pre-increment applies right away, before the statement is executed. As such, this mutant changes the actual output, and thus is caught in the test cases as it will not match the expected output. For example, the toStringValidRangeTest method expects an output where the upper range is 200.0, however, this mutant would return 201.0 for the upper value, which gets caught and killed.
 
-# Report all the statistics and the mutation score for each test class
+<hr>
 
+# Mutation Statistics Before and After
+
+## DataUtilities
+
+### Before
+
+![BeforeDataUtilities](https://user-images.githubusercontent.com/58268240/158420578-19d501f3-dca6-4972-918a-2902587ca380.png?style=centerme)
+
+### After
+
+## Range
+
+### Before
+
+![BeforeRange](https://user-images.githubusercontent.com/58268240/158420843-5fe37ef4-c68f-4a80-9187-7b4ad4554f84.png?style=centerme)
+
+### After
 
 
 # Analysis drawn on the effectiveness of each of the test classes
