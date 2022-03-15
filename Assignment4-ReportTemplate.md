@@ -2,12 +2,51 @@
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group \#:      | 25    |
+| -------------- | --- |
+| Curtis Silva |     |
+| Divyansh Goyal               |     |
+| Gurpartap Sohi               |     |
+| Liam Parmar               |     |
+
+<hr>
+
+**Table of Contents**
+
+[1 Introduction](#introduction)
+
+[2 Data-Flow Coverage Calculations for DataUtilities.calculateColumnTotal and Range.scale](#data-flow-coverage-calculations-for-datautilitiescalculatecolumntotal-and-rangescale)
+* [2.1 Methods of Which Coverage Will Be Calculated](#methods-of-which-coverage-will-be-calculated)
+* [2.2 Data Flow Graphs](#data-flow-graphs)
+* [2.3 Def-Use Sets Per Statement](#def-use-sets-per-statement)
+* [2.4 Def-Use Pairs Per Variable](#def-use-pairs-per-variable)
+* [2.5 Test Case Def-Use Pair Coverage Analysis](#test-case-def-use-pair-coverage-analysis)
+* [2.6 Def-Use Pair Coverage Calculation](#def-use-pair-coverage-calculation)
+
+[3 Detailed Description of Testing Strategy](#detailed-description-of-testing-strategy)
+* [3.1 Testing Strategy](#testing-strategy)
+
+[4 High Level Description of Five Selected Test Cases and Their Contribution to Coverage](#high-level-description-of-five-selected-test-cases-and-their-contribution-to-coverage)
+* [4.1 DataUtilities](#datautilities)
+* [4.2 Range](#range)
+
+[5 New Coverage Achieved with Further Test Cases Added](#new-coverage-achieved-with-further-test-cases-added)
+* [5.1 DataUtilities](#datautilities-1)
+* [5.2 Range](#range-1)
+
+[6 Pros and Cons of EclEmma](#pros-and-cons-of-eclEmma)
+* [6.1 Pros](#pros)
+* [6.2 Cons](#cons)
+
+[7 Advantages and Disadvantages of Requirements-Based Test Generation and Coverage-Based Test Generation](#advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation)
+
+[8 How Work was Divided/Shared](#how-work-was-dividedshared)
+
+[9 Difficulties Encountered, Challenges Overcame, and Lessons Learned](#difficulties-encountered-challenges-overcame-and-lessons-learned)
+
+[10 Comments/Feedback](#commentsfeedback)
+
+<hr>
 
 # Introduction
 
