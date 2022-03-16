@@ -35,6 +35,8 @@
 
 [12 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
 
+[13 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned
+
 <hr>
 
 # Introduction
@@ -281,6 +283,8 @@ As outlined above, the group tested various functionalities of which two were se
 
 The assignment was divided into pairs for the mutation testing with one pair focusing on the Range class and the other focusing on the DataUtilities class. Within the pairs, one group member would identify the mutants that survived while the other group member would create the test case that would kill the mutant identified. After both pairs were done the entire group came together to evaluate the test cases created and the coverage reports for the mutations. For the process of Selenium testing on the Walmart website, we discussed as a group what functionalities we were going to test and split off individually and did two tests each. This discussion also involved identifying which functionalities require tests with different data, which were then grouped together for one member to design and implement.
 
-# Difficulties encountered, challenges overcome, and lessons learned
+# Difficulties Encountered, Challenges Overcome, and Lessons Learned
+
+Some difficulties encountered were with PIT mutations not working properly. The PIT summary window would either not show up or just completely not work saying it couldn’t connect and we needed to reload the page. For some group members the PIT summary page was not accessible and despite many searches on the internet they couldn’t be resolved, luckily we had some members that were able to see the coverage results for the mutation testing. The running of PIT mutations also seemed to cause CPU usage to go up by a lot and took very long. When running Selenium once we tried to hover over an element it didn't register as a verification endpoint and so when the group ran the tests it caused errors on the webpage which resulted in gaps when testing. The group overcame the challenge with Selenium by finding workarounds to the issue. However, attempting to resolve these challenges led to the group having to invest lots of time. Some lessons learned were how to increase mutant test coverage and GUI testing with a chrome extension on a live website. Another lesson learned was effective teamwork when performing testing.
 
 # Comments/feedback on the lab itself
