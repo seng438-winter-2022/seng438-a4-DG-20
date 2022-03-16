@@ -21,17 +21,9 @@
 * [3.1 DataUtilities](#datautilities)
 * [3.2 Range](#range)
 
-[4 High Level Description of Five Selected Test Cases and Their Contribution to Coverage](#high-level-description-of-five-selected-test-cases-and-their-contribution-to-coverage)
-* [4.1 DataUtilities](#datautilities)
-* [4.2 Range](#range)
-
 [5 New Coverage Achieved with Further Test Cases Added](#new-coverage-achieved-with-further-test-cases-added)
 * [5.1 DataUtilities](#datautilities-1)
 * [5.2 Range](#range-1)
-
-[6 Pros and Cons of EclEmma](#pros-and-cons-of-eclEmma)
-* [6.1 Pros](#pros)
-* [6.2 Cons](#cons)
 
 [7 Advantages and Disadvantages of Requirements-Based Test Generation and Coverage-Based Test Generation](#advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation)
 
@@ -40,6 +32,8 @@
 [9 Explaination on The Use of Checkpoints and Verifications](#explaination-on-the-use-of-checkpoints-and-verifications)
 
 [10 Use of Different Test Data for Functionalities](#use-of-different-test-data-for-functionalities)
+
+[12 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
 
 <hr>
 
@@ -283,8 +277,9 @@ As outlined above, the group tested various functionalities of which two were se
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
-# How the team work/effort was divided and managed
+# How The Team Work was Divided and Managed
 
+The assignment was divided into pairs for the mutation testing with one pair focusing on the Range class and the other focusing on the DataUtilities class. Within the pairs, one group member would identify the mutants that survived while the other group member would create the test case that would kill the mutant identified. After both pairs were done the entire group came together to evaluate the test cases created and the coverage reports for the mutations. For the process of Selenium testing on the Walmart website, we discussed as a group what functionalities we were going to test and split off individually and did two tests each. This discussion also involved identifying which functionalities require tests with different data, which were then grouped together for one member to design and implement.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
