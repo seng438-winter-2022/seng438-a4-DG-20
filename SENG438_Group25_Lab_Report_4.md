@@ -21,31 +21,25 @@
 * [3.1 DataUtilities](#datautilities)
 * [3.2 Range](#range)
 
-[4 Analysis Drawn on The Effectiveness of Each of The Test Classes](#analysis-drawn-on-the-effectiveness-of-each-of-the-test-classes)
+[4 A Discussion on The Effect of Equivalent Mutants on Mutation Score Accuracy](#a-discussion-on-the-effect-of-equivalent-mutants-on-mutation-score-accuracy)
 
-[5 A Discussion on The Effect of Equivalent Mutants on Mutation Score Accuracy](#a-discussion-on-the-effect-of-equivalent-mutants-on-mutation-score-accuracy)
+[5 Mutation Coverage Improvement Design Strategy](#mutation-coverage-improvement-design-strategy)
 
-[6 A Discussion of What Could Have Been Done to Improve The Mutation Score of The Test Suites](#a-discussion-of-what-could-have-been-done-to-improve-the-mutation-score-of-the-test-suites)
+[6 Why Do We Need Mutation Testing? Advantages and Disadvantages of Mutation Testing](#why-do-we-need-mutation-testing-advantages-and-disadvantages-of-mutation-testing)
 
-[7 Why Do We Need Mutation Testing? Advantages and Disadvantages of Mutation Testing](#why-do-we-need-mutation-testing-advantages-and-disadvantages-of-mutation-testing)
+[7 Selenium Test Case Design Process](#selenium-test-case-design-process)
 
-[8 Selenium Test Case Design Process](#selenium-test-case-design-process)
+[8 Explaination on The Use of Checkpoints and Verifications](#explaination-on-the-use-of-checkpoints-and-verifications)
 
-[6 New Coverage Achieved with Further Test Cases Added](#new-coverage-achieved-with-further-test-cases-added)
-* [6.1 DataUtilities](#datautilities-1)
-* [6.2 Range](#range-1)
+[9 Use of Different Test Data for Functionalities](#use-of-different-test-data-for-functionalities)
 
-[7 Advantages and Disadvantages of Requirements-Based Test Generation and Coverage-Based Test Generation](#advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation)
+[10 Discuss Advantages and Disadvantages of Selenium vs. Sikulix](#discuss-advantages-and-disadvantages-of-selenium-vs-sikulix)
 
-[8 Selenium Test Case Design Process](#selenium-test-case-design-process)
+[11 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
 
-[9 Explaination on The Use of Checkpoints and Verifications](#explaination-on-the-use-of-checkpoints-and-verifications)
+[12 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
 
-[10 Use of Different Test Data for Functionalities](#use-of-different-test-data-for-functionalities)
-
-[12 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
-
-[13 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
+[13 Comments/Feedback on The Lab Itself](#comments-feedback-on-the-lab-itself)
 
 <hr>
 
@@ -230,15 +224,11 @@ public String toString() {
 
 <hr>
 
-# Analysis Drawn on The Effectiveness of Each of The Test Classes
-
-<hr>
-
 # A Discussion on The Effect of Equivalent Mutants on Mutation Score Accuracy
 
 <hr>
 
-# A Discussion of What Could Have Been Done to Improve The Mutation Score of The Test Suites
+# Mutation Coverage Improvement Design Strategy
 
 <hr>
 
@@ -327,4 +317,6 @@ Some difficulties encountered were with PIT mutations not working properly. The 
 
 <hr>
 
-# Comments/feedback on the lab itself
+# Comments/Feedback on The Lab Itself
+
+The lab was very time consuming as every time the group wanted to run PIT mutation coverage tests, it would consume a large amount of CPU usage and take several minutes to run. The lab also contained lots of written responses and time consuming challenges such as sorting through hundreds of mutation tests and having to sort and figure them all out. The lab provided insight into mutation testing and the way that they can be covered to further improve test suites.
