@@ -35,11 +35,11 @@
 
 [7 Advantages and Disadvantages of Requirements-Based Test Generation and Coverage-Based Test Generation](#advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation)
 
-[8 How Work was Divided/Shared](#how-work-was-dividedshared)
+[8 Selenium Test Case Design Process](#selenium-test-case-design-process)
 
-[9 Difficulties Encountered, Challenges Overcame, and Lessons Learned](#difficulties-encountered-challenges-overcame-and-lessons-learned)
+[9 Explaination on The Use of Checkpoints and Verifications](#explaination-on-the-use-of-checkpoints-and-verifications)
 
-[10 Comments/Feedback](#commentsfeedback)
+[10 Use of Different Test Data for Functionalities](#use-of-different-test-data-for-functionalities)
 
 <hr>
 
@@ -218,7 +218,6 @@ public String toString() {
 
 ### After
 
-
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
@@ -227,11 +226,58 @@ public String toString() {
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
-# Explain your SELENUIM test case design process
+# Selenium Test Case Design Process
 
-# Explain the use of assertions and checkpoints
+To test walmart.ca, the group decided to test 6 major functionalities. These were decided after a discussion on which aspects of the website are used most and thus need to be thoroughly tested. The 6 functionalities decided to be tested were: 
+1. Clicking a category hyperlink on the main page (T1)
+2. Entering a search into the input form on the main page (T2)
+3. Entering an email for subscription purposes on the main page at the bottom (T3 tested an incorrect email address format and T4 tested a correct email address format input)
+4. Creating an account (T5 tested with an email address already in use)
+5. Logging into an existing account (T6 tested by entering an incorrect password and T7 tested by entering a correct password)
+6. Usability of profile option after logging in (T8).
 
-# how did you test each functionaity with different test data
+After coming up with the major functionalities to be tested, the team deliberated on which test cases would require more than one test to cover it fully (as outlined above). Using this discussion, the team was able to create 8 test cases, 2 for each team member, once the functionalities to be tested were solidified.
+
+# Explaination on The Use of Checkpoints and Verifications
+
+Assertions and verifications are used and generated automatically through the Selenium IDE. These testing endpoints provide a checklist for the steps taken in a test case. The steps are what are measured to ensure the sequence of usage is occurring correctly and in the right order. Furthermore, these are important as they are responsible for not only reaching the correct output but ensuring that the correct output was achieved through the right steps. This is significant because often times, the correct output is reached but through incorrect steps, which should be counted as a failed test. 
+
+The automated verfication steps/points are shown for each test below:
+
+<strong>T1:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523058-2c1662fa-37ca-4bef-a08c-563dd690be73.png)
+
+<strong>T2:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523111-d8b40755-30ce-4e3e-9896-9035f055a55f.png)
+
+<strong>T3:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523200-ddb8f0c4-90d2-4fd7-9d46-7da07952f34a.png)
+
+<strong>T4:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523278-de5ceb0b-a9c8-41b3-96ba-7cfb134448ea.png)
+
+<strong>T5:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523356-1ce6e126-46bb-4e91-9a9e-1ce494663209.png)
+![image](https://user-images.githubusercontent.com/58268240/158523378-bdb14bf2-6ba8-497f-abfe-d313f9221108.png)
+
+<strong>T6:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523439-78ba8613-b50e-4eb6-8ecd-3dcbd6824fff.png)
+
+<strong>T7:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523471-ec20ed75-5056-4917-9905-c3637b55b803.png)
+
+<strong>T8:</strong>
+
+![image](https://user-images.githubusercontent.com/58268240/158523516-e926b177-e744-47c3-849d-8bbd9b7a04d0.png)
+
+# Use of Different Test Data for Functionalities
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
