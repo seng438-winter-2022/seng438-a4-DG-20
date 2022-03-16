@@ -51,6 +51,8 @@
 
 # Introduction
 
+This assignment intends to provide students a generalized overview of the fundamentals of mutation and GUI based testing. In order to meet a specific mutation coverage requirement students are required to analyze many mutant tests to increase the effectiveness of tests on the Range and DataUtilities classes. This includes improving upon  test cases strategically. Students will gain experience working with mutation tools such as PIT within Eclipse. In order to explore GUI testing students are asked to explore the use of GUI test automation tools and apply them on a website such as Walmart. In order to meet a count of 8 tests, students test different functionalities within the live website and have the GUI test the recorded tests from the student. 
+
 <hr>
 
 # Analysis of 10 Mutants of The Range class 
