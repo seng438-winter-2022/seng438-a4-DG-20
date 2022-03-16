@@ -39,7 +39,7 @@
 
 [12 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
 
-[13 Comments/Feedback on The Lab Itself](#comments-feedback-on-the-lab-itself)
+[13 Comments/Feedback on The Lab Itself](#commentsfeedback-on-the-lab-itself)
 
 <hr>
 
