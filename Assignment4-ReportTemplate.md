@@ -226,6 +226,8 @@ public String toString() {
 
 ### After
 
+![image](https://user-images.githubusercontent.com/58268240/158534717-5f4b351f-94d8-4d7a-bbfb-9236fa31bfa8.png)
+
 <hr>
 
 # Analysis Drawn on The Effectiveness of Each of The Test Classes
