@@ -45,7 +45,7 @@
 
 [12 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
 
-[13 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned
+[13 Difficulties Encountered, Challenges Overcome, and Lessons Learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
 
 <hr>
 
