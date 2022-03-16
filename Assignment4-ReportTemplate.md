@@ -279,6 +279,8 @@ The automated verfication steps/points are shown for each test below:
 
 # Use of Different Test Data for Functionalities
 
+As outlined above, the group tested various functionalities of which two were selected to perform multiple tests on using different test data. This is because the target of these tests was a form which is authenticated through the back-end of the website. The first such test was performed on the email subscription form. This form required a valid email address to be entered so that the user can be subscribed to receive notifications. As such, the two test cases performed on it were one with a valid email address format, for example: "asdf@gmail.com" and one with an invalid email format: "asdf". The other such test was performed on the login form, where the two conditions to test were an incorrect password and a correct password. With testing these, the group made use of using different test data for functionalities to cover all aspects of the test design.
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
