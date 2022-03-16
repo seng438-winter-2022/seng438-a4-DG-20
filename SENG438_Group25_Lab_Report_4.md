@@ -230,6 +230,8 @@ public String toString() {
 
 # Mutation Coverage Improvement Design Strategy
 
+The group utilized a concrete strategy to improve mutation coverage results for both Range and DataUtilities classes. Firstly, since once some members of the group could run and view the PIT summary in Eclipse, the team decided to split into pairs and implement pair programming, where one pair would improve DataUtilities and the other pair would improve Range. Then, within each pair, the group went through the respective PIT summaries and discovered mutants which were not covered. They then prioritized creating test cases according to the number of survived mutants they would kill. For example, in Range, the test case method getCentralValueFor1Test was discovered to kill many mutants. Then, after each group individually created and tested test cases, the team came together to deliberate and review the PIT summaries to ensure that an increase in coverage was achieved. Usually, the common trend of the mutants which survived was that the mutant replaced a conditional with either true or false or negated the conditions within it. As such, catching this was the focus of most developed test cases. Another common trend was the pre-increment and pre-decrement of variables within the function being tested. Thus, a large number of test cases addressed these mutants and killed them.
+
 <hr>
 
 # Why Do We Need Mutation Testing? Advantages and Disadvantages of Mutation Testing
