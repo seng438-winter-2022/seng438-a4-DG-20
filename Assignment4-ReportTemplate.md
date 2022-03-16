@@ -21,9 +21,19 @@
 * [3.1 DataUtilities](#datautilities)
 * [3.2 Range](#range)
 
-[5 New Coverage Achieved with Further Test Cases Added](#new-coverage-achieved-with-further-test-cases-added)
-* [5.1 DataUtilities](#datautilities-1)
-* [5.2 Range](#range-1)
+[4 Analysis Drawn on The Effectiveness of Each of The Test Classes](#analysis-drawn-on-the-effectiveness-of-each-of-the-test-classes)
+
+[5 A Discussion on The Effect of Equivalent Mutants on Mutation Score Accuracy](#a-discussion-on-the-effect-of-equivalent-mutants-on-mutation-score-accuracy)
+
+[6 A Discussion of What Could Have Been Done to Improve The Mutation Score of The Test Suites](#a-discussion-of-what-could-have-been-done-to-improve-the-mutation-score-of-the-test-suites)
+
+[7 Why Do We Need Mutation Testing? Advantages and Disadvantages of Mutation Testing](#why-do-we-need-mutation-testing-advantages-and-disadvantages-of-mutation-testing)
+
+[8 Selenium Test Case Design Process](#selenium-test-case-design-process)
+
+[6 New Coverage Achieved with Further Test Cases Added](#new-coverage-achieved-with-further-test-cases-added)
+* [6.1 DataUtilities](#datautilities-1)
+* [6.2 Range](#range-1)
 
 [7 Advantages and Disadvantages of Requirements-Based Test Generation and Coverage-Based Test Generation](#advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation)
 
@@ -214,13 +224,25 @@ public String toString() {
 
 ### After
 
-# Analysis drawn on the effectiveness of each of the test classes
+<hr>
 
-# A discussion on the effect of equivalent mutants on mutation score accuracy
+# Analysis Drawn on The Effectiveness of Each of The Test Classes
 
-# A discussion of what could have been done to improve the mutation score of the test suites
+<hr>
 
-# Why do we need mutation testing? Advantages and disadvantages of mutation testing
+# A Discussion on The Effect of Equivalent Mutants on Mutation Score Accuracy
+
+<hr>
+
+# A Discussion of What Could Have Been Done to Improve The Mutation Score of The Test Suites
+
+<hr>
+
+# Why Do We Need Mutation Testing? Advantages and Disadvantages of Mutation Testing
+
+We need mutation testing to ensure our tests are effective in catching the variety of bugs that may be present within the system. Mutation testing allows for the altering of source code to catch mutants that survive and actually verify the effectiveness of our test cases. Advantages of mutation testing is that it tests our test cases through the changing of source code. The validation of testing the very tests that test our system has great value for the integrity of the system. Mutation testing has high levels of error detection as well as it tests many different variations of the source code. Some disadvantages of mutation testing is that it sometimes creates a mutant that survives that can’t be solved in some cases by the test code as it would go against the logic of the source code which can cause confusion. The large amount of mutations used in mutation testing is very confusing in how many mutants are created at once.
+
+<hr>
 
 # Selenium Test Case Design Process
 
@@ -233,6 +255,8 @@ To test walmart.ca, the group decided to test 6 major functionalities. These wer
 6. Usability of profile option after logging in (T8).
 
 After coming up with the major functionalities to be tested, the team deliberated on which test cases would require more than one test to cover it fully (as outlined above). Using this discussion, the team was able to create 8 test cases, 2 for each team member, once the functionalities to be tested were solidified.
+
+<hr>
 
 # Explaination on The Use of Checkpoints and Verifications
 
@@ -273,20 +297,30 @@ The automated verfication steps/points are shown for each test below:
 
 ![image](https://user-images.githubusercontent.com/58268240/158523516-e926b177-e744-47c3-849d-8bbd9b7a04d0.png)
 
+<hr>
+
 # Use of Different Test Data for Functionalities
 
 As outlined above, the group tested various functionalities of which two were selected to perform multiple tests on using different test data. This is because the target of these tests was a form which is authenticated through the back-end of the website. The first such test was performed on the email subscription form. This form required a valid email address to be entered so that the user can be subscribed to receive notifications. As such, the two test cases performed on it were one with a valid email address format, for example: "asdf@gmail.com" and one with an invalid email format: "asdf". The other such test was performed on the login form, where the two conditions to test were an incorrect password and a correct password. With testing these, the group made use of using different test data for functionalities to cover all aspects of the test design.
+
+<hr>
 
 # Discuss Advantages and Disadvantages of Selenium vs. Sikulix
 
 The pros of Sikulix compared to Selenium is that Sikulix makes use of an RPA tool that uses images on the screen for testing automation which can be better in some cases such as image captcha. The cons of Sikulix compared to Selenium is that Sikulix requires an image storage to be used for image recognition within the web page. Sikulix is also not great for the reading of text as compared to Selenium HTML based operation. Sikulix is less applicable to testing in most cases as it uses RPA and Selenium uses HTML/XML.
 
+<hr>
+
 # How The Team Work was Divided and Managed
 
 The assignment was divided into pairs for the mutation testing with one pair focusing on the Range class and the other focusing on the DataUtilities class. Within the pairs, one group member would identify the mutants that survived while the other group member would create the test case that would kill the mutant identified. After both pairs were done the entire group came together to evaluate the test cases created and the coverage reports for the mutations. For the process of Selenium testing on the Walmart website, we discussed as a group what functionalities we were going to test and split off individually and did two tests each. This discussion also involved identifying which functionalities require tests with different data, which were then grouped together for one member to design and implement.
 
+<hr>
+
 # Difficulties Encountered, Challenges Overcome, and Lessons Learned
 
 Some difficulties encountered were with PIT mutations not working properly. The PIT summary window would either not show up or just completely not work saying it couldn’t connect and we needed to reload the page. For some group members the PIT summary page was not accessible and despite many searches on the internet they couldn’t be resolved, luckily we had some members that were able to see the coverage results for the mutation testing. The running of PIT mutations also seemed to cause CPU usage to go up by a lot and took very long. When running Selenium once we tried to hover over an element it didn't register as a verification endpoint and so when the group ran the tests it caused errors on the webpage which resulted in gaps when testing. The group overcame the challenge with Selenium by finding workarounds to the issue. However, attempting to resolve these challenges led to the group having to invest lots of time. Some lessons learned were how to increase mutant test coverage and GUI testing with a chrome extension on a live website. Another lesson learned was effective teamwork when performing testing.
+
+<hr>
 
 # Comments/feedback on the lab itself
