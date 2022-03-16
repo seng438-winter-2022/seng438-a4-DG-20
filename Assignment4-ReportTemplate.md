@@ -277,7 +277,9 @@ The automated verfication steps/points are shown for each test below:
 
 As outlined above, the group tested various functionalities of which two were selected to perform multiple tests on using different test data. This is because the target of these tests was a form which is authenticated through the back-end of the website. The first such test was performed on the email subscription form. This form required a valid email address to be entered so that the user can be subscribed to receive notifications. As such, the two test cases performed on it were one with a valid email address format, for example: "asdf@gmail.com" and one with an invalid email format: "asdf". The other such test was performed on the login form, where the two conditions to test were an incorrect password and a correct password. With testing these, the group made use of using different test data for functionalities to cover all aspects of the test design.
 
-# Discuss advantages and disadvantages of Selenium vs. Sikulix
+# Discuss Advantages and Disadvantages of Selenium vs. Sikulix
+
+The pros of Sikulix compared to Selenium is that Sikulix makes use of an RPA tool that uses images on the screen for testing automation which can be better in some cases such as image captcha. The cons of Sikulix compared to Selenium is that Sikulix requires an image storage to be used for image recognition within the web page. Sikulix is also not great for the reading of text as compared to Selenium HTML based operation. Sikulix is less applicable to testing in most cases as it uses RPA and Selenium uses HTML/XML.
 
 # How The Team Work was Divided and Managed
 
