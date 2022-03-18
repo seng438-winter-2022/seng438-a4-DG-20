@@ -233,12 +233,15 @@ public String toString() {
 The following are equivalence mutants that were discussed as a group and noted prior to running the mutation tool, PIT, within Eclipse.
 
 * Post incrementing and decrementing numbers on return statements.
+
         * Ex: return(value);	→	return(value++);
    
 * Summation of values changed to subtracting a negative value from another value.
+
         * Ex: return(a + b);	→	return(a - (-b));
        
 * Less than conditional statements in for loops changed to not equal conditional statements
+
         * Ex: for(int i = 0; i < 5; i++)	→	for(int i =0; i != 5; i++)
        
        
