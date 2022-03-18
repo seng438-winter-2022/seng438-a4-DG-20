@@ -233,13 +233,13 @@ public String toString() {
 The following are equivalence mutants that were discussed as a group and noted prior to running the mutation tool, PIT, within Eclipse.
 
 - Post incrementing and decrementing numbers on return statements.
-        * Ex: return(value);	→	return(value++);
+* Ex: return(value);	→	return(value++);
    
 - Summation of values changed to subtracting a negative value from another value.
-        * Ex: return(a + b);	→	return(a - (-b));
+* Ex: return(a + b);	→	return(a - (-b));
        
 - Less than conditional statements in for loops changed to not equal conditional statements
-        * Ex: for(int i = 0; i < 5; i++)	→	for(int i =0; i != 5; i++)
+* Ex: for(int i = 0; i < 5; i++)	→	for(int i =0; i != 5; i++)
        
        
 After determining the equivalence classes, the group thought of approaches to finding the equivalent mutants in the original test suite. The decided approach utilized exhaustive testing and going through each test case in the test suite to investigate if the test case contained any equivalent mutants. Furthermore, test cases that didn't contain a return statement with a numerical value on the same line, or cases without summation of numerical values, or cases with no for loops or for loops that did not have a less than conditional statement were disregarded. The remaining test cases that were not disregarded were further explored to detect equivalent mutants. In individually checking each regarded test case, detection of equivalent mutations was enabled and new mutations were detected and potentially killed off. However, in employing exhaustive testing, detecting equivalent mutants was very time consuming and in real world or large scale applications this method is not feasible. The mutation score received by a test suite may not necessarily reflect an accurate result, for example, a test suite may have a mutation score of 75% suggesting an acceptable mutation testing outcome. However, the remaining 25% that was not covered could be a direct result of equivalent mutants and therefore are impossible to kill off to achieve a mutation score of 100%. 
